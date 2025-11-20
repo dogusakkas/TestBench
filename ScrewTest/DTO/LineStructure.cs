@@ -1,0 +1,14 @@
+﻿using ScrewTest.Screw.Communication.Interface;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ScrewTest.DTO
+{
+    public class LineStructure
+    {
+        public IMachine ScrewMachine { get; set; }
+    }
+}
